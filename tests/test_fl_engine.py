@@ -1,4 +1,3 @@
-
 import numpy as np
 import pytest
 
@@ -156,4 +155,3 @@ def test_server_preserves_weights_if_all_clients_fail():
     )
 
     assert server.round_number == 0
-
